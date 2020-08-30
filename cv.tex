@@ -46,6 +46,12 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=awesome-red,
+}
+
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -82,9 +88,9 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
+  {} % {\today}
   {Filip Hrenić~~~·~~~Curriculum Vitae}
-  {\thepage}
+  {} % {\thepage}
 
 
 %-------------------------------------------------------------------------------
